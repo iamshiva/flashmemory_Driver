@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"flaskmemory_new_startover_code\startup_stm32f207xx.o"
+"flaskmemory_new_startover_code\main.o"
+"flaskmemory_new_startover_code\stm32f2xx_it.o"
+"flaskmemory_new_startover_code\stm32f2xx_hal_msp.o"
+"flaskmemory_new_startover_code\stm32f2xx_hal_tim.o"
+"flaskmemory_new_startover_code\stm32f2xx_hal_tim_ex.o"
+"flaskmemory_new_startover_code\stm32f2xx_hal_uart.o"
+"flaskmemory_new_startover_code\stm32f2xx_hal.o"
+"flaskmemory_new_startover_code\stm32f2xx_hal_rcc.o"
+"flaskmemory_new_startover_code\stm32f2xx_hal_rcc_ex.o"
+"flaskmemory_new_startover_code\stm32f2xx_hal_cortex.o"
+"flaskmemory_new_startover_code\stm32f2xx_hal_flash.o"
+"flaskmemory_new_startover_code\stm32f2xx_hal_flash_ex.o"
+"flaskmemory_new_startover_code\stm32f2xx_hal_pwr.o"
+"flaskmemory_new_startover_code\stm32f2xx_hal_pwr_ex.o"
+"flaskmemory_new_startover_code\stm32f2xx_hal_gpio.o"
+"flaskmemory_new_startover_code\stm32f2xx_hal_dma.o"
+"flaskmemory_new_startover_code\stm32f2xx_hal_dma_ex.o"
+"flaskmemory_new_startover_code\stm32f2xx_hal_exti.o"
+"flaskmemory_new_startover_code\system_stm32f2xx.o"
+--strict --scatter "flaskmemory_new_startover_code\flaskmemory_new_startover_code.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "flaskmemory_new_startover_code.map" -o flaskmemory_new_startover_code\flaskmemory_new_startover_code.axf
